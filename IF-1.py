@@ -1,6 +1,6 @@
 # -------------------------- day 5
 
-is_christmas = False                       # sets a false boolean for the variable container 'is_christmas'
+is_christmas = False                       # sets a true or false boolean for the variable containers
 is_snowing = False
 is_wonderful_time = False
 is_december = True
