@@ -7,3 +7,4 @@ if is_christmas:                           # initialises IF statement to print t
 else:                                      # if this is not true then prints the below string instead
     print("It's not Christmas")
 
+# testing connection
