@@ -1,7 +1,7 @@
 # ----------------- day 6
 
 month_conversions = {                      # creates a dictionary called month_conversions using a { symbol
-    "Jan": "January",
+    "Jan": "January",                      # creates a key: and a value linked to the key
     "Feb": "February",
     "Mar": "March",
     "Apr": "April",
@@ -15,4 +15,4 @@ month_conversions = {                      # creates a dictionary called month_c
     "Dec": "December",
 }                                        # } closes the dictionary
 
-print(month_conversions["Dec"])          # prints the full name of the month from the mentioned library
+print(month_conversions["Dec"])          # prints the value associated with the key
