@@ -7,7 +7,7 @@ try:                                              # the code will first try the 
                                                   # 10/0 is not possible in maths, so we need to make an exception
     number = int(input("Enter a number: "))       # this will error if the user inputs a string instead of an int number
     print(number)
-except ZeroDivisionError:                         # 10/0 will output s zerodiv error so we except it and print the below
+except ZeroDivisionError:                         # 10/0 will output a zerodiv error so we except it and print the below
     print("Zero division error")
 except ValueError:                                # if user enters a string then python will output a value error
     print("Invalid input")                        # prints the string
