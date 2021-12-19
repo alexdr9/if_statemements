@@ -20,3 +20,16 @@ for index2 in range(5):                          # creates a loop that repeats 5
         print("first iteration")
     else:                                        # if the loop is on the second to fifth loop then print the string
         print("not first")
+
+
+# ------------------ day 7
+
+# Exponent function
+
+def raise_to_power(base_num, pow_num):           # creates a function with two parameters
+    result = 1                                   # creates a variable where we store the result of the math
+    for index3 in range(pow_num):  # loops through the range of numbers from zero up to (not including) the power number
+        result = result * base_num               # each loop multiplies the result by the base number
+    return result                                # returns to result
+
+print(raise_to_power(3, 2))                      # prints the function and specifies the base number and power number
