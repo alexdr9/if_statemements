@@ -32,4 +32,4 @@ def raise_to_power(base_num, pow_num):           # creates a function with two p
         result = result * base_num               # each loop multiplies the result by the base number
     return result                                # returns to result
 
-print(raise_to_power(3, 2))                      # prints the function and specifies the base number and power number
+print(raise_to_power(3, 2))                      # specifies the base number and power number, then prints the function
