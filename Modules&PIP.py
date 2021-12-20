@@ -6,4 +6,9 @@
 
 import input                        # imports all variables, functions, etc. from the input.py file
 
-# PIP is used to install python modules from other sources 
+# PIP is used to install python modules from other sources
+
+# e.g. in terminal type    pip install python-docx
+# this will install a 3rd party module to create functions that work with microsoft word
+
+# PIP files are stored in external libraries > python3.10>site-packages
