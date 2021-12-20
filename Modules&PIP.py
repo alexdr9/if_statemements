@@ -15,3 +15,4 @@
 import docx                        # imports docx module so all the functions are available in python
 
 
+# to uninstall a module, in terminal type, e.g.       pip uninstall python-docx        
