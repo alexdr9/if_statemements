@@ -10,9 +10,12 @@
 # e.g. in terminal type    pip install python-docx
 # this will install a 3rd party module to create functions that work with microsoft word
 
+# to download PIP,in terminal type;      curl https://bootstrap.pypa.io/get-pip.py | python3
+
+
 # PIP files are stored in external libraries > python3.10>site-packages
 
 import docx                        # imports docx module so all the functions are available in python
 
 
-# to uninstall a module, in terminal type, e.g.       pip uninstall python-docx       
+# to uninstall a module, in terminal type, e.g.       pip uninstall python-docx
